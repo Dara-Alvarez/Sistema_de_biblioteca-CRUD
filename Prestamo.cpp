@@ -35,7 +35,7 @@ int Prestamo::get_libro()
 void Prestamo::devolucion(char fecha_devolucion[100])
 {
     strcpy(this->fecha_devolucion,fecha_devolucion);
-    this->estatus=1;
+    this->estatus=0;
 }
 
 
